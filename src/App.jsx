@@ -21,8 +21,8 @@ function App() {
     }
   }
 
-  return <div classNameName={styles.body}>
-    <div classNameName={styles.calculator}>
+  return <div className={styles.body}>
+    <div className={styles.calculator}>
       <Display displayVal={calVal}></Display>
       <ButtonsContainer onButtonClick={onButtonClick}></ButtonsContainer>
 
